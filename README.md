@@ -84,8 +84,8 @@ ProyectoNodeJs/
     ├── data/
     ├── models/
     ├── routes/
-    ├── index.js
-    └── package.json
+├── index.js
+└── package.json
 ```
 
 ## 🧪 Ejecución del proyecto
