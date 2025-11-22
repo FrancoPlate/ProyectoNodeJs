@@ -22,7 +22,7 @@ Backend para una tienda de mascotas con funcionalidades CRUD básicas:
 ### 📌 Autentificar el usuario
 
 ```
-GET /auth/login
+POST /auth/login
 ```
 
 ## 📝 Estructura de autentificar el usuario
