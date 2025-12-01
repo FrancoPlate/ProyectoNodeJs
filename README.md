@@ -17,12 +17,11 @@ Backend para una tienda de mascotas con funcionalidades CRUD básicas:
 
 ## 🚀 Endpoints disponibles
 
-> Actualmente configurados en **localhost**, pero se desplegarán en un dominio de **Vercel**.
-
 ### 📌 Autentificar el usuario
 
 ```
 POST /auth/login
+https://proyecto-node-js-three.vercel.app/auth/login
 ```
 
 ## 📝 Estructura de autentificar el usuario
@@ -40,18 +39,21 @@ Para autentificar el usuario, enviá un JSON con la siguiente estructura:
 
 ```
 GET /api/products
+https://proyecto-node-js-three.vercel.app/api/products
 ```
 
 ### 📌 Obtener un producto por ID
 
 ```
 GET /api/products/:id
+https://proyecto-node-js-three.vercel.app/api/products/:id
 ```
 
 ### 📌 Crear un producto
 
 ```
 POST /api/products/create
+https://proyecto-node-js-three.vercel.app/api/products/create
 ```
 
 ## 📝 Ejemplo de estructura de un producto
@@ -72,6 +74,7 @@ Para crear un nuevo producto, enviá un JSON con la siguiente estructura:
 
 ```
 DELETE /api/products/:id
+https://proyecto-node-js-three.vercel.app/api/products/:id
 ```
 
 ## 📂 Estructura básica del proyecto 
